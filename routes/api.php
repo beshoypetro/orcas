@@ -33,3 +33,6 @@ Route::group(['middleware' => 'employee'], function () {
 
 
 
+
+
+Route::resource('requests', 'RequestsAPIController');
